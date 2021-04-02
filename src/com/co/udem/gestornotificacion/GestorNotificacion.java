@@ -23,6 +23,7 @@ public class GestorNotificacion {
 	}
 
 	public void enviarMensajes() {
+		//este metodo instancia la clase y envia el mensaje segun lo que traiga la lista de notificadores
 		for (String notificador : this.notificadores) {
 
 			switch (notificador) {
