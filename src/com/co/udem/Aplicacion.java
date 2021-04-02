@@ -19,12 +19,14 @@ public class Aplicacion {
 		destinatarios.add("Sofia");
 		destinatarios.add("Sara");
 		
-		notificadores.add("C");
-		//notificadores.add("F");
-		notificadores.add("S");
-		//notificadores.add("E");
 		
-		mensaje = "Socoro jesus";
+		notificadores.add("C");
+		notificadores.add("F");
+		notificadores.add("S");
+		notificadores.add("E");
+		notificadores.add("J");
+		
+		mensaje = "Mensaje de Bienvenida";
 		
 		gestorNotificacion = new GestorNotificacion(destinatarios, mensaje, notificadores);
 		
